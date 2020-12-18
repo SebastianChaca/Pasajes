@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="alerta"></div>    
+    
+        <form id="form-data">
+            <h2>Reserva de pasajes</h2>
+            <label for="">Localidad de origen</label> 
+            <select name="" id="origen">
+                <option value="">Seleccione una opcion</option>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="MDQ">MDQ</option>
+                <option value="Cordoba">Cordoba </option>
+                <option value="Bariloche">Bariloche </option>
+            </select>
+            <label for="">Destino: </label>
+            <select name="" id="destino">
+                <option value="">Seleccione una opcion</option>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="MDQ">MDQ</option>
+                <option value="Cordoba">Cordoba </option>
+                <option value="Bariloche">Bariloche </option>
+            </select>
+            <label for="">Fecha de partida:</label>
+            <input type="date" id="fecha">
+            <label for="">Horario de salida:</label>
+            <input type="time" id="horario">
+            <label for="">Cantidad de pasajes:</label>
+                <input type="number" id="pasajes">
+            <h2 id="pasajero">Datos del pasajero</h2>
+            <label for="">Nombre:</label>
+            <input type="text" id="nombre">
+            <label for="">Apellido:</label>
+            <input type="text" id="apellido">
+            <label for="">DNI:</label>
+            <input type="text" id="DNI">
+            <label for="">Medio de Pago:</label>
+            <select name="" id="mediosPago">
+                <option value="">Seleccione un metodo de pago</option>
+                <option value="Efectivo">Efectivo</option>
+                <option value="Tarjeta de Credito">Tarjeta de Credito</option>
+                <option value="Tarjeta de Debito">Tarjeta de Debito</option>
+            </select>
+            <button id="confirmar">Confirmar</button>
+        </form>
+   
+    
+    
+    <div id="datos-pasajeros"><h2>Datos Finales :</h2></div>
+    
+</body>
+<script src="index.js"></script>
+</html>
